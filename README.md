@@ -1,3 +1,3 @@
 ## Personal documents
 
-My [CV](cv.cv.pdf) and the source for my personal website.
+My [CV](cv/cv.pdf) and the source for my personal website.
