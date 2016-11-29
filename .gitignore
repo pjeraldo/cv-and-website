@@ -7,3 +7,6 @@
 .directory
 *flv
 personal-website/out/*
+*aux
+*fls
+*.out
