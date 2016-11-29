@@ -1,0 +1,121 @@
+---
+title: CV
+in_menu: true
+sort_info: 4
+---
+
+# Curriculum Vitae
+  
+&nbsp;
+
+## Personal
+
+* Citizenship: Chilean Citizen
+* US Visa status: F1 student visa
+* Languages: Spanish: native; English: read, written and spoken (TOEFL: 640 PBT, TWE: 5, SPEAK: 50)
+
+## Academic and Research Interests
+
+Quantitative and Physical Biology, Superfluid Hydrodynamics, Bioinformatics, Microbial Ecology and Metagenomics
+
+## Education
+
+<ul>
+<li>Ph.D. Physics, University of Illinois at Urbana-Champaign, 2012 <br />
+  Thesis: Computational approaches to stochastic systems in physics and ecology <br />
+  Advisor: Nigel Goldenfeld</li>
+<li>Magíster en Ciencias mención Física (equivalent to M.S. Physics), Universidad de Chile, 2004<br />  
+Thesis: Quantitative Model for the Growth of Biomaterials: A Study of Avian Eggshell <br />
+Advisor: Fernando Lund</li>
+
+<li>Licenciatura en Ciencias mención Física (equivalent to B.S. Physics), Universidad de Chile, 2002</li>
+</ul>
+
+## Skills
+
+* Numerical programming in C++, Matlab, Mathematica
+* Basic knowledge of C and Java programming.
+* Scripting in Python, with emphasis on numerical and bioinformatics modules
+* Knowledge of 16S rRNA bioinformatics pipelines for high-throughput data analysis
+* Proficiency in administering Linux systems
+
+## Employment
+
+### Postdoctoral
+
+* Institute for Genomic Biology, University of Illinois at Urbana-Champaign, April 2012- current
+* Department of Surgery, Mayo Clinic, April 2012- current (joint with U. of Illinois)
+
+### Teaching – University of Illinois at Urbana-Champaign
+
+* Thermal and Statistical Physics (University), Fall II 2011, Teaching Assistant (Discussion)
+* Quantum Physics (University), Fall I 2011, Teaching Assistant (Discussion)
+* Electricity & Magnetism and Modern Physics (College), Spring 2010, Teaching Assistant (Discussion)
+* Mechanics and Heat (College), Fall 2008, Teaching Assistant (Lab)
+* Electricity & Magnetism and Modern Physics (College), Spring 2007, Teaching Assistant (Lab)
+* Electricity & Magnetism and Modern Physics (College), Fall 2006, Teaching Assistant (Lab)
+* Atomic and Quantum Physics (Phys. Major), Spring 2005, Teaching Assistant (Grading)
+* Atomic and Quantum Physics (Phys. Major), Fall 2004, Teaching Assistant (Grading)
+
+### Teaching – Universidad de Chile
+
+* Contemporary Physics (Engr. Major), Fall 2003, Teaching Assistant (Discussion)
+* Computational Methods in Physics (Phys. Major), Spring 2002, Teaching Assistant
+* Electromagnetism (Engr. Major), Fall 2002, Teaching Assistant (Discussion)
+* Introductory Modern Physics (Phys. Major), Spring 2001, Teaching Assistant (Discussion)
+* Contemporary Physics (Engr. Major), Fall 2001, Teaching Assistant (Discussion)
+
+### Other
+
+* Physics Computer Services – Dept. of Physics, Univ. of Illinois at Urbana Champaign, Summer 2005 – Spring 2006, Graduate Assistant (Tech Support)
+
+## Awards and Honors
+
+* L.S. Edelheit Family Biological Physics Fellowship, 2009
+* Teacher Ranked as Excellent, Physics 102 – College Physics: Electricity & Magnetism and Modern Physics, Spring 2006
+* Teacher Ranked as Outstanding, Physics 102 – College Physics: Electricity & Magnetism and Modern Physics, Spring 2007
+* Teacher Ranked as Excellent, Physics 101 – College Physics: Mechanics and Heat, Fall 2008
+* Teacher Ranked as Outstanding, Physics 213/214 – University Physics: Thermal and Statistichal Physics, Quantum Physics, Fall 2011
+* Phi Kappa Phi Honor Society
+
+## Publications
+
+* **P. Jeraldo**, J.L. Arias, F. Lund, S. Maeckelberghe and D. Walgraef, *Towards a quantitative model of eggshell growth: a two-dimensional study*, in Proceedings of the 9th International Symposium on Biomineralization, edited by J.L. Arias and M.S. Fernández (Editorial Universitaria, Santiago, Chile, 2007), pp. 155-164
+* M. Sipos, **P. Jeraldo**, N. Chia, A. Qu, A.S. Dhillon, M.E. Konkel, K.E. Nelson, B. White, and N. Goldenfeld, *Robust Computational Analysis of rRNA Hypervariable Tag Datasets*, [PLoS ONE **5**, e15220][sipos] (2010)
+* **P. Jeraldo**, N. Chia, and N. Goldenfeld, *On the suitability of short reads of 16S rRNA for phylogeny-based analyses in environmental surveys*, [Environ. Microbiol. **13**, 3000-3009][short_reads] (2011)
+* J. Brulc, C. Yeoman, M. Wilson, M. Berg-Miller, **P. Jeraldo**, S. Jindou, N. Goldenfeld, H. Flint, R. Lamed, I. Borovok, M. Vodovnik, K. E. Nelson, E. Bayer, and B. White, *Cellulosomics, a Gene-Centric Approach to Investigating the Intraspecific Diversity and Adaptation of Ruminococcus flavefaciens within the Rumen*, [PLoS ONE **6**, e25329][cellulosomics] (2011)
+* L. Angheluta, **P. Jeraldo**, and N. Goldenfeld, *Anisotropic velocity statistics of topological defects under shear flow*, [Phys. Rev. E **85**, 011153][quench_prl] (2012) (also on [arXiv:1201.5758][quench_arxiv]) 
+* **P. Jeraldo**, M. Sipos, N. Chia, J.M. Brulc, A.S. Dhillon, M.E. Konkel, C.L. Larson, K.E. Nelson, A. Qu, L.B. Schook, F. Yang, B.A. White and N. Goldenfeld, *Quantification of the relative roles of niche and neutral processes in structuring gastrointestinal microbiomes*, [Proc. Nat. Acad. Sci. USA **109**, 9692-9698][nnp] (2012)
+* C.J. Yeoman, N. Chia, **P. Jeraldo**, M. Sipos, N. Goldenfeld and B.A. White, *The microbiome of the chicken gastrointestinal tract*, [Anim. Health Res. Rev. **13**, 89-99][chicken_review] (2012)
+
+
+## Presentations
+
+### Talks
+
+* *Evolutionary dynamics of a rare biosphere in the chicken caecum*, Biocomplexity Theme Seminar, Institute for Genomic Biology, Univeristy of Illinois at Urbana-Champaign, March 2009
+* *Quantitative Model for the Growth of Biomaterials*, 2nd SBPMat Meeting, Rio de Janeiro, Brazil, October 2003
+
+### Posters
+
+* *TORNADO v2: a pipeline for alignments and comparison for microbiome read libraries from next-generation sequencing platforms*, Individualizing Medicine Conference 2012, Mayo Clinic, Rochester, Minnesota, USA, October 2012
+* *On the suitability of short reads of 16S rRNA for phylogeny-based analyses in environmental surveys*, Keystone Symposia: Microbial Communities as Drivers of Ecosystem Complexity, Breckenridge, Colorado, USA, March 2011
+* *Collective Dynamics of HGT*, Institute for Genomic Biology Fellows Symposium, University of Illinois at Urbana-Champaign, February 2007
+* *Quantitative Model for the Growth of Biomaterials*, 10th International Workshop on Instabilities and Nonequilibrium Structures, Viña del Mar, Chile, December 2003
+
+
+[sipos]: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015220 "PLoS ONE article"
+
+[angheluta]: http://arxiv.org/abs/1103.2185 "arXiv preprint"
+
+[short_reads]: http://doi.wiley.com/10.1111/j.1462-2920.2011.02577.x "article in Environmental Microbiology journal"
+
+[cellulosomics]: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0025329 "PLoS ONE article"
+
+[quench_prl]: http://link.aps.org/doi/10.1103/PhysRevE.85.011153 "Physical Review E"
+
+[quench_arxiv]: http://arxiv.org/abs/1201.5758 "arXiv preprint"
+
+[nnp]: http://dx.doi.org/10.1073/pnas.1206721109 "PNAS article"
+
+[chicken_review]: http://dx.doi.org/10.1017/S1466252312000138 "Anim. Health Res. Rev. review"

@@ -1,0 +1,113 @@
+---
+title: Superfluid Turbulence
+in_menu: true
+sort_info: 3
+javascript: [mediaplayer/jwplayer.js]
+---
+
+# Superfluid Turbulence
+  
+&nbsp;
+
+Here are some animations made with data from numerical simulations of superfluid flows. The simulations were done using a cell dynamical system based model of the superfluid order parameter with dissipation. The scheme is similar in spirit to the Ginzburg-Pitaevskii equations for superfluids near the &lambda; point.
+
+## Arnold-Beltrami-Childress flows
+
+  
+<div id="abc"></div>
+  
+
+Isosurfaces of minimum density are displayed in this kinematic simulation of a superfluid under the influence of a normal component described by an Arnold-Beltrami-Childress flow.
+
+## Ostermeier-Glaberson instability
+
+  
+<div id="ogi"></div>
+  
+
+A vortex ring is stretched by a Gaussian vortex, the vortex string length increases until saturation. These are isosurfaces of minumum superfluid density.
+
+## Magnus force and dissipation on two rings
+
+  
+<div id="tworing"></div>
+  
+
+Two vortex rings in the center of a box are affected by a normal component in the z direction (upwards). The rings also shrink because of dissipative effects. These are isosurfaces of minimum superfluid density
+
+## Shear flow
+
+  
+<div id="shear"></div>
+  
+
+After a quench, the superfluid is "sheared" with a normal flow in the y-direction, witn maximum positive velocity at x=L/4, and maximum negative velocity at x=3L/4. These are isosurfaces of minimum superfluid density.
+
+## Pouiseille-like flow
+
+  
+<div id="pouiseille"></div>
+  
+
+Vortex strings are transported by a flow which has its maximum speed at the center of the X-Z plane, with v=0 at the boundaries. The box has periodic boundary conditions, so it is not really a Pouiseille flow. These are isosurfaces of minimum superfluid density.
+
+
+<script type="text/javascript"> 
+    jwplayer("abc").setup({
+        file: "movies/ABC-new2.mp4",
+        width: 640,
+        height: 480,
+	repeat: "always",
+	image: "images/abc.png",
+        modes: [
+            { type: "html5" },
+            { type: "flash", src: "mediaplayer/player.swf" },
+            { type: "download" }
+        ]
+    });
+ 
+    jwplayer("ogi").setup({
+        file: "movies/OGI.flv",
+        width: 640,
+        height: 480,
+        modes: [
+            { type: "html5" },
+            { type: "flash", src: "mediaplayer/player.swf" },
+            { type: "download" }
+        ]
+    });
+ 
+    jwplayer("tworing").setup({
+        file: "movies/2RING.flv",
+        width: 640,
+        height: 480,
+        modes: [
+            { type: "html5" },
+            { type: "flash", src: "mediaplayer/player.swf" },
+            { type: "download" }
+        ]
+    });
+  
+    jwplayer("shear").setup({
+        file: "movies/SHEAR.flv",
+        width: 640,
+        height: 480,
+        modes: [
+            { type: "html5" },
+            { type: "flash", src: "mediaplayer/player.swf" },
+            { type: "download" }
+        ]
+    });
+  
+    jwplayer("pouiseille").setup({
+        file: "movies/POUISEILLE.flv",
+        width: 640,
+        height: 480,
+        modes: [
+            { type: "html5" },
+            { type: "flash", src: "mediaplayer/player.swf" },
+            { type: "download" }
+        ]
+    });
+ 
+</script> 

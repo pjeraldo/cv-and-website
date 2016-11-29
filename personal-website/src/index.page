@@ -1,0 +1,32 @@
+---
+title: Home
+in_menu: true
+sort_info: 1
+---
+
+## About me
+<img class="right" src="{relocatable: images/patricio.jpg}" alt="Patricio Jeraldo" />
+
+I am a Postdoctoral Research Fellow in the [Institute for Genomic Biology][igb] at the [University of Illinois at Urbana-Champaign][uiuc], working jointly as a Research Fellow in the Department of Surgery at [Mayo Clinic][mayo] as part of the [Mayo-Illinois Alliance for Technology-Based Healthcare.][alliance]
+
+My current interests are related to the microbiome of human subjects, as well as related methodologies such as metagenomics and metatranscriptomics, with a focus on clinical research. The goal is better understanding of the relationship between the microbiome and healthy or disease states, and, I hope, light the way to novel diagnostic and treatment options. As part of this effort, I am also continuing development of a pipeline for processing 16S rRNA reads from next-generation sequencing platforms ([current version is TORNADO version 1.0, available for use][tornado]).
+
+My work is supervised by [Nicholas Chia][chia] at Mayo Clinic. 
+
+<!--
+I am a graduate student working in questions regarding evolution in gut microbiomes, designing a [pipeline for short reads of 16S rRNA][tornado] coming from 454 pyrosequencers accounting for the known artifacts of said sequences, and analyzing and quantifying information loss in phylogenetic trees created using short reads of 16S rRNA.
+
+I am interested in turbulent [superfluid dynamics][sf]: coupling with excitations, long-range, long-wavelength dynamics, efficient coarse-gained numerical algorithms for fully coupled two-fluid dynamics. I also interested in using these numerical techniques in studying the statistics of large fluctuations present in the dynamics of quantum vortices, crystal dislocations, and topological defects in general.
+
+My work is advised by Professor [Nigel Goldenfeld][nigel]. More information about the research interests of the group members can be found through the [group’s website][group].
+-->
+*[rRNA]: Ribosomal Ribonucleic Acid
+[tornado]: http://tornado.igb.illinois.edu "TORNADO"
+[nigel]: http://guava.physics.uiuc.edu/~nigel
+[group]: http://guava.physics.uiuc.edu
+[sf]: {relocatable: sf-turbulence.html}
+[uiuc]: http://illinois.edu "UIUC"
+[mayo]: http://mayoclinic.org "Mayo Clinic"
+[alliance]: http://mayoillinois.org "Mayo-Illinois Alliance"
+[chia]: http://cocoa.igb.illinois.edu "Chia Lab"
+[igb]: http://www.igb.illinois.edu "IGB"

@@ -1,0 +1,306 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref,url}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[sc,osf]{mathpazo}
+%\usepackage{tgtermes}
+
+% Set your name here
+\def\name{Patricio Jeraldo}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://guava.physics.uiuc.edu/~patricio/CV.html}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {microbiome,metagenomics,superfluids},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}[t]{0.45\linewidth}
+\vspace{0pt}
+  \href{http://mayoclinic.org}{Mayo Clinic} \\
+  200 First Street SW \\
+  Rochester, MN 55905
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+\vspace{0pt}
+  \begin{tabular}{ll}
+    Phone: & (507) 284-2229 \\
+    %Fax: &  (919) 962-5678 \\
+    Email: & \href{mailto:jeraldo.patricio@mayo.edu}{\tt jeraldo.patricio@mayo.edu} \\
+    Homepage: & \href{http://guava.physics.uiuc.edu/~patricio}{\url{
+    http://guava.physics.uiuc.edu/~patricio}}
+    \\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Personal}
+
+\begin{itemize}
+\item Citizenship: Chilean Citizen
+\item US Visa status / work authorization: H-1B (Sponsor: University of Illinois)
+%\item Languages: Spanish: native; English: read, written and spoken (TOEFL: 640 PBT, TWE: 5, SPEAK: 50)
+\item Languages: Spanish: native; English: read, written and spoken
+\end{itemize}
+
+\section*{Academic and Research Interests}
+
+\begin{itemize}
+  \item Quantitative and Physical Biology, Microbial Ecology and
+Metagenomics, Bioinformatics, Superfluid Hydrodynamics, Topological Defect
+Dynamics 
+\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. Physics, University of Illinois at Urbana-Champaign, 2012 \\
+  Thesis: Computational approaches to stochastic systems in physics and ecology \\
+  Advisor: Nigel Goldenfeld
+
+  \item M.S. Physics, University of Illinois at Urbana-Champaign, 2007
+  
+  \item Magíster en Ciencias mención Física (equivalent to M.Sc. Physics),
+  Universidad de Chile, 2004\\ Thesis: Quantitative Model for the Growth of Biomaterials: A Study of Avian
+  Eggshell \\
+  Advisor: Fernando Lund
+  
+  \item Licenciatura en Ciencias mención Física (equivalent to B.Sc. Physics),
+  Universidad de Chile, 2002
+\end{itemize}
+
+\section*{Skills}
+\begin{itemize}
+    \item Numerical programming in C/C++, Matlab, Java
+    \item Scripting in Python, Bash and R, with emphasis on numerical and bioinformatics modules
+    \item User level knowledge of parallel computing queuing systems (SGE)
+    \item Basic knowledge of parallel computing libraries (MPI) and general purpose GPU computing
+    \item Knowledge of 16S rRNA bioinformatics pipelines for high-throughput
+    data analysis
+    \item Proficiency in administering Linux/UNIX systems
+\end{itemize}
+
+
+\section*{Employment}
+\subsection*{Postdoctoral}
+\begin{itemize}
+\item Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign, April 2012 -- current
+\item Department of Surgery, Mayo Clinic, April 2012 -- current (joint with U. of Illinois)
+\end{itemize}
+\subsection*{Teaching - University of Illinois at Urbana-Champaign}
+\begin{itemize}
+\item Thermal and Statistical Physics (University), Fall II 2011, Teaching Assistant (Discussion) %for Raffi Budakian
+\item Quantum Physics (University), Fall I 2011, Teaching Assistant (Discussion) %for Raffi Bhudakian
+\item Electricity \& Magnetism and Modern Physics (College), Spring 2010,
+Teaching Assistant (Discussion) %for Yann Chemla
+\item Mechanics and Heat (College), Fall 2008, Teaching Assistant (Lab)
+% for Charles Gammie
+\item Electricity \& Magnetism and Modern Physics (College), Spring 2007,
+Teaching Assistant (Lab) % for George Gollin
+\item Electricity \& Magnetism and Modern Physics (College), Fall 2006,
+Teaching Assistant (Lab) % for George Gollin
+\item Atomic and Quantum Physics (Phys. Major), Spring 2005,
+Teaching Assistant (Grading) % for DVH
+\item Atomic and Quantum Physics (Phys. Major), Fall
+2004, Teaching Assistant (Grading) % for DVH
+\end{itemize}
+\subsection*{Teaching - Universidad de Chile}
+\begin{itemize}
+  \item Contemporary Physics (Engr. Major), Fall 2003, Teaching Assistant
+  (Discussion) % Rene Mendez
+  \item Computational Methods in Physics (Phys. Major), Spring 2002, Teaching
+  Assistant % Patricio Cordero
+  \item Electromagnetism (Engr. Major), Fall 2002, Teaching Assistant
+  (Discussion) % Patricio Cordero
+  \item Introductory Modern Physics (Phys. Major), Spring 2001, Teaching
+  Assistant (Discussion) % Nelson Zamorano
+  \item Contemporary Physics (Engr. Major), Fall 2001, Teaching Assistant
+  (Discussion) % Daphne Boys
+\end{itemize}
+\subsection*{Other}
+\begin{itemize}
+  \item Physics Computer Services - Dept. of Physics, Univ. of Illinois at
+  Urbana Champaign, Summer 2005 - Spring 2006, Graduate Assistant (Tech Support)
+\end{itemize}
+\section*{Awards and Honors}
+\begin{itemize}
+  \item L.S. Edelheit Family Biological Physics Fellowship, 2009
+  \item Teacher Ranked as Excellent, Physics 102 - College Physics: Electricity
+  \& Magnetism and Modern Physics, Spring 2006
+  \item Teacher Ranked as Outstanding, Physics 102 - College Physics: Electricity
+  \& Magnetism and Modern Physics, Spring 2007
+  \item Teacher Ranked as Excellent, Physics 101 - College Physics: Mechanics
+  and Heat, Fall 2008
+  \item Teacher Ranked as Outstanding, Physics 213/214 - University Physics: Thermal
+  and Statistical Physics, Quantum Physics, Fall 2011
+  \item Phi Kappa Phi Honor Society
+\end{itemize}
+
+\section*{Publications}
+
+\begin{itemize}
+\item \textbf{P. Jeraldo}, J.L. Arias, F. Lund, S. Maeckelberghe and D.
+Walgraef, \textit{Towards a quantitative model of eggshell growth: a
+two-dimensional study}, in Proceedings of the 9th International Symposium on Biomineralization,
+edited by J.L. Arias and M.S. Fernández (Editorial Universitaria, Santiago,
+Chile, 2007), pp. 155-164
+\item M. Sipos, \textbf{P. Jeraldo}, N. Chia, A. Qu, A.S. Dhillon, M.E. Konkel,
+K.E. Nelson, B. White, and N. Goldenfeld,
+\textit{Robust Computational Analysis of rRNA Hypervariable Tag Datasets},
+PLOS ONE \textbf{5},
+\href{http://www.plosone.org/article/info:doi/10.1371/journal.pone.0015220}{e15220} (2010)
+\item \textbf{P. Jeraldo}, N. Chia, and N. Goldenfeld, \textit{On the
+Suitability of Short Reads of 16S rRNA for Phylogeny-based Analyses in Environmental Surveys},
+Environ. Microbiol. \textbf{13},
+\href{http://doi.wiley.com/10.1111/j.1462-2920.2011.02577.x}{3000-3009} (2011)
+
+\item J. Brulc, C. Yeoman, M. Wilson, M. Berg-Miller, \textbf{P. Jeraldo},
+S. Jindou, N. Goldenfeld, H. Flint, R. Lamed, M. Vodovnik, I. Borovok, K. E. Nelson,
+E. Bayer, and B. White, \textit{Cellulosomics, a Gene-Centric Approach to
+Investigating the Intraspecific Diversity and Adaptation of Ruminococcus
+flavefaciens within the Rumen}, PLOS ONE \textbf{6},
+\href{http://www.plosone.org/article/info:doi/10.1371/journal.pone.0025329}{
+e25329} (2011)
+\item L. Angheluta, \textbf{P. Jeraldo}, and N. Goldenfeld, \textit{Anisotropic
+velocity statistics of topological defects under shear flow}, Phys. Rev. E
+\textbf{85}, \href{http://link.aps.org/doi/10.1103/PhysRevE.85.011153}{011153}
+(2012) (also at \href{http://arxiv.org/abs/1201.5758}{arXiv:1201.5758})
+%\item L. Angheluta, \textbf{P. Jeraldo}, K. Dahmen and N. Goldenfeld,  \textit{Avalanche
+%statistics and intermittency in topological defect-dominated flows}, submitted,
+%\href{http://arxiv.org/abs/1103.2185}{arXiv:1103.2185}
+\item \textbf{P. Jeraldo}, M. Sipos, N. Chia, J.M. Brulc, A.S. Dhillon, M.E. Konkel, C.L. Larson, 
+K.E. Nelson, A. Qu, L.B. Schook, F. Yang, B.A. White and N. Goldenfeld, 
+\textit{Quantification of the relative roles of niche and neutral processes in structuring gastrointestinal microbiomes}, 
+Proc. Nat. Acad. Sci. USA \textbf{109}, \href{http://dx.doi.org/10.1073/pnas.1206721109}{9692-9698} (2012)
+\item C. Yeoman, N. Chia, \textbf{P. Jeraldo}, M. Sipos, N. Goldenfeld and B.A. White, 
+\textit{The microbiome of the chicken gastroinstestinal tract}, 
+Anim. Health Res. Rev. \textbf{13}, \href{http://dx.doi.org/10.1017/S1466252312000138}{89-99} (2012)
+\item M.R.S. Walther-António, \textbf{P. Jeraldo}, M. Berg-Miller, C.J. Yeoman, K.E. Nelson, B.A. Wilson, B.A. White, N. Chia and D.J. Creedon, \textit{Pregnancy's Stronghold on the Vaginal Microbiome}, PLoS ONE \textbf{9}, \href{http://dx.plos.org/10.1371/journal.pone.0098514.g008}{e98514} (2014)
+\item S.S Kang, \textbf{P.R. Jeraldo}, A. Kurti1, M.E. Berg-Miller., M. D. Cook, K. Whitlock, N. Goldenfeld, J.A. Woods, B.A. White, N. Chia and J.D. Fryer, \textit{Diet and exercise orthogonally alter the gut microbiome and reveal independent associations with anxiety and cognition}, Mol. Neurodegener. \textbf{9},  \href{http://dx.doi.org/10.1186/1750-1326-9-36}{6} (2014)
+\item A.G. Theofiles, S.A. Cunningham, N. Chia, \textbf{P. Jeraldo}, D.J. Quest, J.N. Mandrekar and R. Patel, \textit{Pertussis Outbreak, Southeastern Minnesota, 2012}, Mayo Clin. Proc. \textbf{89}, \href{http://dx.doi.org/10.1016/j.mayocp.2014.08.004}{1378-1388} (2014)
+\item C.T. Seto, \textbf{P. Jeraldo}, R. Orenstein, N. Chia and J.K. DiBaise,\textit{Prolonged use of a proton pump inhibitor reduces microbial diversity: implications for Clostridium difficile susceptibility}, Microbiome \textbf{2}, \href{http://dx.doi.org/10.1186/2049-2618-2-42}{42} (2014)
+\item \textbf{P. Jeraldo}, K. Kalari, X. Chen, J. Bhavsar, A. Mangalam, B.A. White, H. Nelson, J-P. Kocher and N. Chia, \textit{IM-TORNADO: A Tool for Comparison of 16S Reads from Paired-End Libraries}, PLOS ONE \textbf{9}, \href{http://dx.plos.org/10.1371/journal.pone.0114804}{e114804}
+\end{itemize}
+
+\section*{Presentations}
+\subsection*{Talks}
+\begin{itemize}
+  \item \textit{Evolutionary dynamics of a rare biosphere in the chicken
+  caecum}, Biocomplexity Theme Seminar, Institute for Genomic Biology,
+  Univeristy of Illinois at Urbana-Champaign, March 2009
+  \item \textit{Quantitative Model for the Growth of Biomaterials},
+  2nd SBPMat Meeting, Rio de Janeiro, Brazil, October 2003
+\end{itemize}
+
+\subsection*{Posters}
+\begin{itemize}
+  \item \textit{Deep metagenomic sequencing for de novo assemblies of genomes from the gut microbiota},
+  Keystone Symposia: Exploiting and Understanding Biochemical Transformations in the Human Microbiome,
+  Big Sky, MT, April 2014
+  \item \textit{De novo hybrid sequence assembly of metagenomes from human gut communities},
+  Cell Symposia: Microbiome and Host Health, Lisbon, Portugal, May 2013
+  \item \textit{TORNADO v2: a pipeline for alignments and comparison for 
+  microbiome read libraries from next-generation sequencing platforms},
+  Individualizing Medicine Conference 2012, Mayo Clinic, Rochester, MN,
+  October 2012
+  \item \textit{On the suitability of short reads of 16S rRNA for
+  phylogeny-based analyses in environmental surveys}, Keystone Symposia:
+  Microbial Communities as Drivers of Ecosystem Complexity, Breckenridge, CO,
+  March 2011
+  \item \textit{Collective Dynamics of HGT}, Institute for Genomic Biology
+  Fellows Symposium, University of Illinois at Urbana-Champaign, February 2007
+  \item \textit{Quantitative Model for the Growth of Biomaterials}, 10th
+  International Workshop on Instabilities and Non\-equilibrium Structures, Viña
+  del Mar, Chile, December 2003
+\end{itemize}
+
+\section*{References}
+\begin{itemize}
+  \item Prof. Nigel Goldenfeld, email:
+  \href{mailto:nigel@uiuc.edu}{\texttt {nigel@uiuc.edu}}
+  \item Prof. Bryan White, email:
+  \href{mailto:bwhite44@illinois.edu}{\texttt{bwhite44@illinois.edu}}
+  \item Prof. Nicholas Chia, email:
+  \href{mailto:chia.nicholas@mayo.edu}{\texttt{chia.nicholas@mayo.edu}}
+\end{itemize}
+ \bigskip
+
+ % Footer
+ \begin{center}
+   \begin{footnotesize}
+     Last updated: \today \\
+     \href{\footerlink}{\url{\footerlink}}
+   \end{footnotesize}
+ \end{center}
+
+\end{document}
